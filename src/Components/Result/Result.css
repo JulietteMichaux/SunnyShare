@@ -1,0 +1,28 @@
+.sum {
+  height: 100% !important;
+  width: 100% !important;
+  background: url(../../assets/img/backgrounds/forest.jpg) fixed no-repeat center center;
+  /* <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by brgfx - www.freepik.com</a> */
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.card-title {
+  font-family: 'Indie Flower', cursive;
+  font-size:  3rem !important;
+}
+
+.card-action {
+  display: flex;
+  justify-content: space-between;
+}
+
+.replay {
+  margin: auto !important;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size:  1.5rem;
+}

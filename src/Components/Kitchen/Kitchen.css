@@ -1,0 +1,45 @@
+.bg-image-kitchen {
+  background-image: url(../../assets/img/Cuisine/Cuisine4.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.kitchen {
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 16% 16% 16% 16% 16% 16% 4%;
+  height: 100vh;
+}
+
+.button-kitchen1 {
+  grid-row-start: 5;
+  grid-column-start: 3;
+}
+
+.button-kitchen2 {
+  grid-row-start: 5;
+  grid-column-start: 7;
+}
+
+.oven-radio, .dishes-radio {
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  margin: 0.5rem !important;
+  font-size: 1.8em !important;
+  color: #000000;
+}
+
+.waves-effect {
+  margin-top: 2rem;
+}
+
+.solution {
+  font-size: 1.8em !important;
+}

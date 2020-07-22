@@ -1,0 +1,26 @@
+.hero3 {
+  background-image: url(../../assets/img/ChildrenBedroom/room.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.childroom {
+ display: grid;
+ grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+ grid-template-rows: 20% 20% 20% 20% 20%;
+ height: 100vh;
+}
+
+.cupboard {
+  grid-row-start: 4;
+  grid-column-start: 4;
+}
+
+.window {
+  grid-row-start: 2;
+  grid-column-start: 8;
+}

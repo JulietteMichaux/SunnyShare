@@ -1,0 +1,47 @@
+.bg-image-livingroom {
+    background-image: url(../../assets/img/Salon/Salon2.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .parent-livingroom {
+    display: grid;
+    grid-template-columns: 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 10%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    height: 100vh;
+  }
+  
+  .button-livingroom1 {
+    grid-row-start: 5;
+    grid-column-start: 10;
+  }
+  
+  .button-livingroom2 {
+    grid-row-start: 1;
+    grid-column-start: 13;
+  }
+
+  
+.TV-radio, .lamp-radio {
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  margin: 0.5rem !important;
+  font-size: 1.8em !important;
+  color: #000000;
+}
+
+.waves-effect {
+  margin-top: 2rem;
+}
+
+.solution {
+  font-size: 1.8em !important;
+}
+  

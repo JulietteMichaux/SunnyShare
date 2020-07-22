@@ -1,0 +1,28 @@
+.title {
+  font-family: 'Indie Flower', cursive;
+  color: #ff8f00;
+  margin: 0 !important;
+  padding-top: 80px;
+  font-weight: bold;
+  font-size: 90px;
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+}
+
+.backgroundHome {
+  background: url(../../assets/img/Home/home.png);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.start {
+  background-color: #ff8f00  !important;
+  font-size: 20px !important;
+}
